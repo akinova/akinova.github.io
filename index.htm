@@ -1,0 +1,21 @@
+<!doctype html><meta http-equiv="content-type" content="text/html; charset=utf-8"><title>akinova.de</title>
+<style type="text/css">
+@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100,300,400);
+html,body { height: 100%; padding: 0; margin: 0; }
+body { background: #2c2a29; overflow: hidden; }
+#wrap::before, #wrap::after { position: relative; content: ""; display: block; height: 10%; }
+#wrap::after { content: "YA, RLY"; margin-top: -40px; vertical-align: bottom; line-height: 0; font-size: 86px; text-align: center; xpadding: 10px 10%; box-sizing: border-box; color: #3a3c3b;
+font-family: "Alegreya Sans SC",sans-serif; font-weight: 100; text-shadow: 0 0 10px #f3eee9;
+-webkit-transition: all .24s ease-out; transition: all .24s ease-out;
+-webkit-transform: scale(.9); transform: scale(.9);
+-webkit-filter: blur(4px); filter: url(#blrr2); }
+#wrap:hover::after { -webkit-transform: scale(1); -webkit-filter: blur(0px); transform: scale(1); filter: url(#blrr1); color: #181602; }
+#wrap { height: 100%; overflow: hidden; }
+#main { filter: blur(4px); position: relative; -z-index: 1; box-sizing: border-box; height: 80%; width: 80%; margin: 0 10%;
+border-radius: 50%; -webkit-transition: all .3s ease-out; border: .25em solid #3c3a36; box-shadow: 0 0 2em 1em #1c1a15;
+background: url(http://akinova.de/owlms.jpg) no-repeat center center; background-size: cover; -webkit-background-size: cover;/* android-stock */ }
+#wrap:hover #main { border-radius: 0%; };
+</style>
+<div id="wrap"><div id="main"></div></div>
+<svg id="svg1"><filter id="blrr1"><feGaussianBlur stdDeviation="0" /></filter></svg>
+<svg id="svg2"><filter id="blrr2"><feGaussianBlur stdDeviation="3" /></filter></svg>
